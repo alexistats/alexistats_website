@@ -4,15 +4,23 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 ---
 
 <BaseLayout title="Resume" sideBarActiveItemID="cv">
+  <style>
+    ul {
+      list-style-type: disc; /* Use 'disc' for filled circles, or 'circle' for empty circles */
+      list-style-position: outside;
+      margin-left: 1em;
+    }
+
+    li {
+      margin-bottom: 10px; /* Adjust the bottom margin for space between list items */
+    }
+  </style>
   <div class="mb-5">
     <div class="text-3xl w-full font-bold">Profile</div>
   </div>
 
   <div class="mb-10 text-justify">
-    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-    cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    Coming soon...
   </div>
 
   <div class="mb-5">
@@ -21,12 +29,16 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container grid gap-4 mb-10">
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Master of Science in Computer Science"
+      subtitle="Expected Completion 2026 at Georgia Institute of Technology"
     />
     <TimeLineElement
-      title="Title Name"
-      subtitle="[start year] to [end year] at [Study Center Name], [City], [Country]"
+      title="Bachelors of Mathematics, Honours Statistics, Co-operative Program"
+      subtitle="2015 to 2019 at University of Waterloo, Waterloo, Canada"
+    />
+    <TimeLineElement
+        title="Global Experience Certificate"
+        subtitle="2015 to 2019 at University of Waterloo, Waterloo, Canada"
     />
   </div>
 
@@ -36,22 +48,51 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <div class="time-line-container mb-10">
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Manager, Data Analytics at Hifyre"
+      subtitle="From January 2022 to Present in Hamilton, Ontario"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul><li>Developed a Flask-based REST Data API in collaboration with the engineering team to allow data to power ecommerce recommendations.</li></ul>
+      <ul><li>Optimized Data API latency by over 20% through efficient data transformation techniques, leveraging Redis to improve data retrieval speed and lower network latency.</li></ul>
+      <ul><li>Spearheaded Bayesian A/B testing experimental design to monitor and analyze recommendation models, enabling data-informed business growth and leading to a $1.5M increase in revenues.</li></ul>
+      <ul><li>Empowered the marketing team through the use of a machine learning recommendation engine, improving email engagement by 25% and generating a 3% lift in revenues ($600 000).</li></ul>
+      <ul><li>Improved ecommerce cross-selling results by 5% by performing market basket analysis.</li></ul>
+      <ul><li>Clustered products using NLP techniques; $500 000 lift in yearly ecommerce revenues.</li></ul>
+      <ul><li>Deployed, maintained and optimized in-house python-based applications using Docker to build and CI/CD (CircleCI) to deploy to AWS EC2 instances and AWS ECS.</li></ul>
+      <ul><li>Collaborated with the Merchandising team to build an expert system to automate product replenishment in shops, saving 100s of man hours per month and optimizing product assortment.</li></ul>
+      <ul><li>Supported data engineering requests to centralize data from multiple sources like API integrations, SFTP and S3 to a Redshift Data Warehouse.</li></ul>
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Data Analyst at Hifyre"
+      subtitle="From February 2020 to January 2022 in Hamilton, Ontario"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
     </TimeLineElement>
     <TimeLineElement
-      title="Job Title at Project or Company Name"
-      subtitle="From [Start Date] to [End Date] at [Company], [City], [Country]"
+      title="Part Time Lead Mentor - Data Analytics at Juno College of Technology"
+      subtitle="From October 2021 to May 2023 in Toronto, Ontario"
     >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.
+      <ul><li>Mentored students through analytical problem-solving, enhancing their critical thinking and technical skills in Tableau, Python, SQL, Sheets.</li></ul>
+      <ul><li>Provided guidance and feedback to support the development of future data professionals, fostering a culture of continuous learning.</li></ul>
+    </TimeLineElement>
+    <TimeLineElement
+        title="Methodologist Intern at Statistics Canada"
+        subtitle="From May 2019 to August 2019 in Ottawa, Ontario"
+    >
+      <ul><li>Researched and optimized data matching algorithms on datasets exceeding 80 million records.</li></ul>
+      <ul><li>Presented findings to stakeholders, demonstrating excellent oral communication skills.</li></ul>
+    </TimeLineElement>
+    <TimeLineElement
+        title="Data Entry Intern at Jana Corporation"
+        subtitle="From September 2018 to December 2018 in Aurora, Ontario"
+    >
+      <ul><li>Automated data entry processes using Excel VBA, exceeding business performance metrics by 10 man-hours weekly and improving data quality.</li></ul>
+      <ul><li>Completed a t-test experiment to prove improvements when using an MS Access application.</li></ul>
+    </TimeLineElement>
+    <TimeLineElement
+        title="Data Analyst Intern at The Regional Municipality of York"
+        subtitle="From September 2017 to April 2018 in Newmarket, Ontario"
+    >
+      <ul><li>Conducted thorough data auditing using SQL, resulting in a 10% budget correction for transportation asset data.</li></ul>
+      <ul><li>Built data entry applications using Oracle Apex and PLSQL, streamlining operations and enhancing data quality.</li></ul>
     </TimeLineElement>
   </div>
 
@@ -61,10 +102,13 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
 
   <ul class="list-disc mx-6 mb-10 grid gap-2">
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="https://credentials.edx.org/credentials/4054979dc24746f29cf3a89e34d82500/" target="_blank"> Professional Certificate in OOP with Java (click to see credential)</a>
     </li>
     <li>
-      <a href="#" target="_blank"> Certification Name (with link)</a>
+      <a href="https://www.credly.com/badges/bc5de83d-c586-4c74-9fb1-db215ad642db/public_url" target="_blank"> AWS Certified Cloud Practitioner (click to see credential)</a>
+    </li>
+    <li>
+      <a href="#" target="_blank"> Exam FM - Society of Actuaries</a>
     </li>
   </ul>
 
@@ -73,20 +117,20 @@ import TimeLineElement from "../components/cv/TimeLine.astro";
   </div>
 
   <ul class="list-disc md:columns-5 columns-2 mx-6">
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
-    <li>Skill Name</li>
+    <li>French (Native)</li>
+    <li>Python</li>
+    <li>SQL</li>
+    <li>NoSQL/Redis</li>
+    <li>Docker</li>
+    <li>CI/CD</li>
+    <li>AWS Redshift</li>
+    <li>Flask</li>
+    <li>Git/Github</li>
+    <li>Looker</li>
+    <li>LookMl</li>
+    <li>Liquid</li>
+    <li>Matillion (ETL/ELT)</li>
+    <li>Java</li>
+    <li>Natural Language Processing (NLP)</li>
   </ul>
 </BaseLayout>
