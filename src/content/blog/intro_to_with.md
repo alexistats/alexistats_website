@@ -40,12 +40,12 @@ Another use-case worth mentioning are recursive CTE’s (yes, recursion in SQL!)
 CTE’s can be of help by simply, improving the readability of SQL script. Take this example of a query with one join (using NHL data on player statistics and time on ice information):
 
 
-![query_1.webp](..%2F..%2F..%2Fpublic%2Fintro_to_with%2Fquery_1.webp)
+![query_1.webp](/public/intro_to_with/query_1.webp)
 It’s a simple query. There’s a sub-query in the FROM clause to calculate a bunch of different player statistics. Which is joined to another sub-query about icetime information.
 
 Now, let’s take a look at the same query built using CTE’s.
 
-![query_2.webp](..%2F..%2F..%2Fpublic%2Fintro_to_with%2Fquery_2.webp)
+![query_2.webp](/public/intro_to_with/query_2.webp)
 
 
 The total number of lines is a little longer, but it is now much clearer what we are doing in the main query.
