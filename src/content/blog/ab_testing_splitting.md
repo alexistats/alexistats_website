@@ -2,7 +2,7 @@
 title: "AB Testing: Splitting the Data"
 description: "A quick method to split data in different buckets for the purpose of AB Testing"
 pubDate: "June 17 2022"
-heroImage: "/public/splitting_the_data/buckets.webp"
+heroImage: "/splitting_the_data/buckets.webp"
 badge: "AB Testing"
 tags: ["AB Testing", "Python"]
 ---

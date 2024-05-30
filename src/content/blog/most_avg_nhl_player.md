@@ -2,7 +2,7 @@
 title: "Building a Metric to Find the Most Average NHL Player"
 description: "We always try to find the best player. Or worst. What about the most average?"
 pubDate: "August 2 2022"
-heroImage: "/public/most_avg_player/pearson.webp"
+heroImage: "/most_avg_player/pearson.webp"
 tags: ["NHL", "Python"]
 ---
 
@@ -69,7 +69,7 @@ The average defenseman scores about 6 goals, or which about 5 are scored at even
 
 Height wise, they’re just over 6 feet 1 inch tall, and weight 203 pounds. The average defenseman is slightly older than the average forward at 28.5 years old.
 
-![img_2.webp](/public/most_avg_player/img_2.webp)
+![img_2.webp](/most_avg_player/img_2.webp)
 
 ### Step 4: Finding the Most Average Players
 Now, this is all fun, but we still don’t know who’s the most average player in the NHL…

@@ -2,7 +2,7 @@
 title: "Overcoming Admissions Challenges: How to Get Accepted into a Masters of Computer Science with a Low GPA and Limited References"
 description: "Testing ChatGPT generated content"
 pubDate: "February 13 2023"
-heroImage: "/public/overcoming_admission_challenges/purple.png"
+heroImage: "/overcoming_admission_challenges/purple.png"
 tags: ["chatgpt"]
 ---
 
@@ -11,7 +11,7 @@ tags: ["chatgpt"]
 <h4>Unlock Your Potential: A Guide to Overcoming Admissions Challenges for a Masters of Computer Science Program</h4>
 <p>    Becoming a data scientist is a popular and rewarding career choice in today's digital age. With a growing demand for data-driven insights and decision making, the field of data science offers exciting opportunities for growth and innovation. One of the best ways to break into this field is by earning a master's degree in computer science. However, the application process can be challenging, especially for those with a low GPA or limited academic references. In this blog post, we will offer a step-by-step guide to help you overcome these admissions challenges.</p>
 <h4>Uncovering the Secret to Success: Navigating Admissions Criteria and Requirements</h4>
-<figure class="post__image post__image--center" contenteditable="false"><img src="/public/overcoming_admission_challenges/holding_key.png" alt="" width="402" height="402">
+<figure class="post__image post__image--center" contenteditable="false"><img src="/overcoming_admission_challenges/holding_key.png" alt="" width="402" height="402">
 <figcaption contenteditable="true">Dall-E-2 generation</figcaption>
 </figure>
 <p>    It's important to thoroughly understand the admissions criteria and requirements for a graduate program. This will help you to better prepare your application and increase your chances of getting accepted.</p>
@@ -20,7 +20,7 @@ tags: ["chatgpt"]
 <p>    Consider reaching out to current or former students of the program, or to alumni who have gone on to successful careers in data science. These individuals can provide valuable insights into what the program is like and what you can expect. They can also offer tips and advice for navigating the admissions process and succeeding in the program.</p>
 <p>    Another important aspect of the admissions process is demonstrating your ability to succeed in the program. This means showing that you have the skills, experience, and motivation to succeed in the program. Consider highlighting your relevant work experience and academic achievements in your application, as well as your goals for pursuing the program. You can also discuss any relevant skills or interests, such as programming languages or data analysis techniques, that you have developed in the past.</p>
 <h4>Standing Out from the Crowd: Showcasing Relevant Experience and Achievements in Your Application</h4>
-<figure class="post__image post__image--center" contenteditable="false"><img src="/public/overcoming_admission_challenges/purple.png" alt="" width="392" height="392">
+<figure class="post__image post__image--center" contenteditable="false"><img src="/overcoming_admission_challenges/purple.png" alt="" width="392" height="392">
 <figcaption contenteditable="true">Dall-E-2 generation</figcaption>
 </figure>
 <p> </p>
@@ -29,7 +29,7 @@ tags: ["chatgpt"]
 <p>    You should also highlight any relevant skills you have that are relevant to the program, such as programming languages, software, and technical skills. For example, if you're proficient in Python and SQL, make sure to mention these skills in your application. These skills demonstrate that you have a strong understanding of the technology and tools used in the field and that you have the ability to learn and apply new technologies quickly.</p>
 <p>    Finally, don't forget to mention any certifications or training you've received that are relevant to the program. For example, if you have a certification in data analytics, make sure to mention it in your application. These certifications demonstrate your commitment to your field and show that you are dedicated to staying up-to-date with the latest developments and techniques.</p>
 <h4>Making Your Mark: Crafting a Memorable Essay to Showcase Your Motivation and Goals</h4>
-<figure class="post__image post__image--center" contenteditable="false"><img src="/public/overcoming_admission_challenges/pen_paper.png" alt="" width="366" height="366">
+<figure class="post__image post__image--center" contenteditable="false"><img src="/overcoming_admission_challenges/pen_paper.png" alt="" width="366" height="366">
 <figcaption contenteditable="true">Dall-E-2 generation</figcaption>
 </figure>
 <p>    The essay is an opportunity for you to showcase your motivation, skills, and goals and explain why you want to pursue a master's degree in computer science. A well-written essay can help to differentiate your application and set you apart from other applicants.</p>
@@ -37,7 +37,7 @@ tags: ["chatgpt"]
 <p>    For example, if you have worked as a data analyst for several years, you can write about your experience and how it has prepared you for a career in data science. You can also explain how the program will help you achieve your goals and how you plan to use your knowledge and skills to make an impact in the field.</p>
 <p>    By writing a compelling essay, you can showcase your motivation, skills, and goals and demonstrate why you are a good fit for your program of choice.</p>
 <h4>Building Your Network: Gaining Support from Non-Academic References for Your Graduate School Application</h4>
-<figure class="post__image post__image--center" contenteditable="false"><img src="/public/overcoming_admission_challenges/handshake.png" alt="" width="419" height="419">
+<figure class="post__image post__image--center" contenteditable="false"><img src="/overcoming_admission_challenges/handshake.png" alt="" width="419" height="419">
 <figcaption contenteditable="true">Dall-E-2 generation</figcaption>
 </figure>
 <p>    Letters of recommendation are an important part of the admission process and can help to strengthen your application. If you have limited academic references, you can seek letters of recommendation from non-academic sources, such as employers, supervisors, mentors, or clients. These letters can attest to your skills, achievements, and character and provide valuable insights into your ability to succeed as a data scientist.</p>
