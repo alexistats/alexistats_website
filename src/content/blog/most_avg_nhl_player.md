@@ -62,7 +62,7 @@ Now that our attributes are defined and built, let’s look at what are the aver
 So, the average forward scores about 19 goals, or which about 15 are scored at even strength and 4 on the power play. They do 26 assists, 20 at even strength and 6 on the power play, for a total of 45 points (they might have about a shorthanded point in there). 3 game winning goals for our average player. They also take about 38 penalty minutes over 82 games and shoot 160 times during a season. All that while playing 924 seconds (15 minutes of play)!
 
 Height wise, they’re just over 6 feet tall, and weight 197 pounds. They are 28 years old.
-![img_1.webp](/public/most_avg_player/img_1.webp)
+![img_1.webp](/most_avg_player/img_1.webp)
 
 
 The average defenseman scores about 6 goals, or which about 5 are scored at even strength and 1 on the power play. They do 23 assists, 18 at even strength and 5 on the power play, for a total of 29 points (they might have about a shorthanded point in there). 1 game winning goals for our average player. They also take about 42 penalty minutes over 82 games and shoot 125 times during a season. All that while playing 1181 seconds (19.6 minutes of play)!
